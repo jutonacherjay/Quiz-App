@@ -1,85 +1,86 @@
 const quizdb = [
     {
-        question: "Q1: What is 5 + 3?",
-        a: "6",
-        b: "7",
-        c: "8",
-        d: "9",
+        question: "Q1: Which sentence is in the past tense?",
+        a: "I eat an apple.",
+        b: "I will eat an apple.",
+        c: "I am eating an apple.",
+        d: "I ate an apple.",
+        ans: "ans4"
+    },
+    {
+        question: "Q2: Which sentence is in the future tense?",
+        a: "She is reading a book.",
+        b: "She reads a book.",
+        c: "She will read a book.",
+        d: "She read a book.",
         ans: "ans3"
     },
     {
-        question: "Q2: What is 10 - 4?",
-        a: "5",
-        b: "6",
-        c: "7",
-        d: "8",
-        ans: "ans2"
+        question: "Q3: Which sentence is in the present continuous tense?",
+        a: "They are playing football.",
+        b: "They played football.",
+        c: "They will play football.",
+        d: "They play football.",
+        ans: "ans1"
     },
     {
-        question: "Q3: What is 7 + 2?",
-        a: "8",
-        b: "9",
-        c: "10",
-        d: "11",
-        ans: "ans2"
-    },
-    {
-        question: "Q4: What is 6 - 1?",
-        a: "4",
-        b: "5",
-        c: "6",
-        d: "7",
-        ans: "ans2"
-    },
-    {
-        question: "Q5: What is 3 + 4?",
-        a: "6",
-        b: "7",
-        c: "8",
-        d: "9",
-        ans: "ans2"
-    },
-    {
-        question: "Q6: What is 9 - 2?",
-        a: "6",
-        b: "7",
-        c: "8",
-        d: "9",
+        question: "Q4: Which sentence is in the present simple tense?",
+        a: "He was cooking dinner.",
+        b: "He is cooking dinner.",
+        c: "He cooks dinner.",
+        d: "He will cook dinner.",
         ans: "ans3"
     },
     {
-        question: "Q7: What is 4 + 5?",
-        a: "8",
-        b: "9",
-        c: "10",
-        d: "11",
-        ans: "ans2"
+        question: "Q5: Which sentence is in the past continuous tense?",
+        a: "I was watching TV.",
+        b: "I watch TV.",
+        c: "I am watching TV.",
+        d: "I will watch TV.",
+        ans: "ans1"
     },
     {
-        question: "Q8: What is 8 - 3?",
-        a: "4",
-        b: "5",
-        c: "6",
-        d: "7",
-        ans: "ans2"
+        question: "Q6: Which sentence is in the present perfect tense?",
+        a: "She has finished her homework.",
+        b: "She is finishing her homework.",
+        c: "She finished her homework.",
+        d: "She will finish her homework.",
+        ans: "ans1"
     },
     {
-        question: "Q9: What is 2 + 6?",
-        a: "7",
-        b: "8",
-        c: "9",
-        d: "10",
-        ans: "ans2"
+        question: "Q7: Which sentence is in the future continuous tense?",
+        a: "He was running.",
+        b: "He is running.",
+        c: "He will be running.",
+        d: "He ran.",
+        ans: "ans3"
     },
     {
-        question: "Q10: What is 7 - 5?",
-        a: "1",
-        b: "2",
-        c: "3",
-        d: "4",
-        ans: "ans2"
+        question: "Q8: Which sentence is in the past perfect tense?",
+        a: "They had left the party.",
+        b: "They are leaving the party.",
+        c: "They leave the party.",
+        d: "They will leave the party.",
+        ans: "ans1"
+    },
+    {
+        question: "Q9: Which sentence is in the future perfect tense?",
+        a: "I will have finished my project.",
+        b: "I have finished my project.",
+        c: "I am finishing my project.",
+        d: "I finish my project.",
+        ans: "ans1"
+    },
+    {
+        question: "Q10: Which sentence is in the present perfect continuous tense?",
+        a: "She has been studying for hours.",
+        b: "She is studying for hours.",
+        c: "She studied for hours.",
+        d: "She will study for hours.",
+        ans: "ans1"
     }
 ];
+
 
 
 const question = document.querySelector('.question');

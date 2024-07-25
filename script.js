@@ -111,7 +111,7 @@ const getBangladeshiTime = () => {
 // Display Bangladeshi time
 const updateTime = () => {
     const time = getBangladeshiTime();
-    timeDiv.innerHTML = `<h4 class="timetext">Today's time is ${time}</h4>`;
+    timeDiv.innerHTML = `<h5 class="timetext"> ${time}</h5>`;
 };
 
 // Update time immediately and then every second
@@ -120,6 +120,8 @@ setInterval(updateTime, 1000);
 
 let count = 0;
 let score = 0;
+
+
 
 const load = () => {
     const questionList = quizdb[count];
@@ -171,7 +173,22 @@ submit.addEventListener('click', () => {
     } else {
         alert("Please select an answer");
     }
+
+    if (count < quizdb.length) {
+    numberOfQuestion();
+    }
 });
+
+ const numberOfQuestion =()=>{
+    qstnNumber.innerHTML = `
+                <h4> ${count+1}/${quizdb.length}</h4>
+                
+            `;
+ }
 
 // Load the first question
 load();
+numberOfQuestion();
+
+
+

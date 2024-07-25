@@ -5,12 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App</title>
-    <link rel="stylesheet" href="stye.css">
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <div class="main-div">
+        
         <div class="inner-div">
-            <div class="time"></div>
+            <div id="time-note">
+                 <div class="time"></div>
+                <button id="create-note" onclick="window.location.href='notes.html'">Create Note</button>
+           
+            </div>
+            
             <h2 class="question">Questions will appear here</h2>
             <ul>
                 <li>
@@ -31,9 +38,9 @@
                 </li>
             </ul>
             <button id="submit">Submit</button>
-             <div id="showScore" class="ScoreArea"></div>
+            <div id="qstnNumber" class="qstnNumber-Area"></div>
+            <div id="showScore" class="ScoreArea"></div>
         </div>
-       
     </div>
     <script src="script.js"></script>
 </body>

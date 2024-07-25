@@ -1,22 +1,102 @@
 const quizdb = [
     {
-        question: "Q1: Which sentence is in the past tense?",
-        a: "I eat an apple.",
-        b: "I will eat an apple.",
-        c: "I am eating an apple.",
-        d: "I ate an apple.",
-        ans: "ans4"
+        question: "Q1: Which sentence is in the past perfect tense?",
+        a: "She has finished her work.",
+        b: "She had finished her work.",
+        c: "She finishes her work.",
+        d: "She is finishing her work.",
+        ans: "ans2"
     },
     {
-        question: "Q2: Which sentence is in the future tense?",
-        a: "She is reading a book.",
-        b: "She reads a book.",
-        c: "She will read a book.",
-        d: "She read a book.",
+        question: "Q2: Choose the correct preposition to complete the sentence: 'He is good _____ mathematics.'",
+        a: "at",
+        b: "in",
+        c: "on",
+        d: "for",
+        ans: "ans1"
+    },
+    {
+        question: "Q3: Which sentence is in the future continuous tense?",
+        a: "She will write a letter.",
+        b: "She will be writing a letter.",
+        c: "She writes a letter.",
+        d: "She is writing a letter.",
+        ans: "ans2"
+    },
+    {
+        question: "Q4: Choose the correct preposition to complete the sentence: 'The book is _____ the table.'",
+        a: "on",
+        b: "in",
+        c: "at",
+        d: "for",
+        ans: "ans1"
+    },
+    {
+        question: "Q5: Which sentence is in the present perfect continuous tense?",
+        a: "He has been working here for five years.",
+        b: "He works here for five years.",
+        c: "He worked here for five years.",
+        d: "He is working here for five years.",
+        ans: "ans1"
+    },
+    {
+        question: "Q6: Choose the correct preposition to complete the sentence: 'She is afraid _____ spiders.'",
+        a: "with",
+        b: "from",
+        c: "of",
+        d: "to",
         ans: "ans3"
     },
     {
-        question: "Q3: Which sentence is in the present continuous tense?",
+        question: "Q7: Which sentence is in the past continuous tense?",
+        a: "They are watching a movie.",
+        b: "They will be watching a movie.",
+        c: "They were watching a movie.",
+        d: "They watch a movie.",
+        ans: "ans3"
+    },
+    {
+        question: "Q8: Choose the correct preposition to complete the sentence: 'I will meet you _____ the park.'",
+        a: "on",
+        b: "in",
+        c: "at",
+        d: "for",
+        ans: "ans3"
+    },
+    {
+        question: "Q9: Which sentence is in the future perfect tense?",
+        a: "She will finish her homework.",
+        b: "She will have finished her homework.",
+        c: "She finishes her homework.",
+        d: "She is finishing her homework.",
+        ans: "ans2"
+    },
+    {
+        question: "Q10: Choose the correct preposition to complete the sentence: 'He is interested _____ learning new languages.'",
+        a: "of",
+        b: "for",
+        c: "in",
+        d: "at",
+        ans: "ans3"
+    },
+    {
+        question: "Q11: Which sentence is in the present simple tense?",
+        a: "He is eating dinner.",
+        b: "He eats dinner.",
+        c: "He will eat dinner.",
+        d: "He has eaten dinner.",
+        ans: "ans2"
+    },
+    {
+        question: "Q12: Choose the correct preposition to complete the sentence: 'She arrived _____ the airport on time.'",
+        a: "in",
+        b: "on",
+        c: "to",
+        d: "at",
+        ans: "ans4"
+    },
+    {
+        question: "Q13: Which sentence is in the present continuous tense?",
         a: "They are playing football.",
         b: "They played football.",
         c: "They will play football.",
@@ -24,62 +104,23 @@ const quizdb = [
         ans: "ans1"
     },
     {
-        question: "Q4: Which sentence is in the present simple tense?",
-        a: "He was cooking dinner.",
-        b: "He is cooking dinner.",
-        c: "He cooks dinner.",
-        d: "He will cook dinner.",
+        question: "Q14: Choose the correct preposition to complete the sentence: 'The cat is hiding _____ the couch.'",
+        a: "on",
+        b: "in",
+        c: "under",
+        d: "at",
         ans: "ans3"
     },
     {
-        question: "Q5: Which sentence is in the past continuous tense?",
-        a: "I was watching TV.",
-        b: "I watch TV.",
-        c: "I am watching TV.",
-        d: "I will watch TV.",
-        ans: "ans1"
-    },
-    {
-        question: "Q6: Which sentence is in the present perfect tense?",
-        a: "She has finished her homework.",
-        b: "She is finishing her homework.",
-        c: "She finished her homework.",
-        d: "She will finish her homework.",
-        ans: "ans1"
-    },
-    {
-        question: "Q7: Which sentence is in the future continuous tense?",
-        a: "He was running.",
-        b: "He is running.",
-        c: "He will be running.",
-        d: "He ran.",
-        ans: "ans3"
-    },
-    {
-        question: "Q8: Which sentence is in the past perfect tense?",
-        a: "They had left the party.",
-        b: "They are leaving the party.",
-        c: "They leave the party.",
-        d: "They will leave the party.",
-        ans: "ans1"
-    },
-    {
-        question: "Q9: Which sentence is in the future perfect tense?",
-        a: "I will have finished my project.",
-        b: "I have finished my project.",
-        c: "I am finishing my project.",
-        d: "I finish my project.",
-        ans: "ans1"
-    },
-    {
-        question: "Q10: Which sentence is in the present perfect continuous tense?",
-        a: "She has been studying for hours.",
-        b: "She is studying for hours.",
-        c: "She studied for hours.",
-        d: "She will study for hours.",
+        question: "Q15: Which sentence is in the future perfect continuous tense?",
+        a: "I will have been studying for hours.",
+        b: "I will study for hours.",
+        c: "I study for hours.",
+        d: "I have studied for hours.",
         ans: "ans1"
     }
 ];
+
 
 
 

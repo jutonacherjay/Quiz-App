@@ -150,5 +150,9 @@ input {
         height: auto;
         padding: 15px;
     }
+    #qstnNumber{
+        margin-left: 250px;
+       
+    }
 }
 
